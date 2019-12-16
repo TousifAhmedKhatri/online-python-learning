@@ -1,0 +1,41 @@
+print("\nAssignment 1\n")
+print("Question NO. 1\n")
+print("Poem\n")
+print("Twinkle, twinkle, little star,")
+print("\tHow I wonder what you are!")
+print("\t\tUp above the world so high,")
+print("\t\tLike a diamond in the sky.")
+print("Twinkle, twinkle, little star,")
+print("\tHow I wonder what you are")
+
+import sys
+print("\nQuestion No. 2\n")
+print("Python Version : " + sys.version)
+
+print("\nQuestion No. 3\n")
+from datetime import date
+dt=date.today()
+print("Today Date : "+ str(dt)+"\n")
+d1=dt.strftime("%d %B, %Y")
+
+print("Format 1 : " + str(d1))
+
+print("\nQuestion No. 4\n")
+rad=input("Kindly enter Circle Radius : ")
+rad=int(rad)
+area=(3.14159*(rad*rad))
+print("The Radius of circle is :" + str(rad))
+print("The area of circle is :" + str(area))
+
+print("\nQuestion No. 5\n")
+fname=input("Enter First Name : ")
+lname=input("Enter Last Name : ")
+print(lname + " " + fname)
+
+print("\nQuestion No. 6\n")
+Fno=input("Enter First Number : ")
+Fno=int(Fno)
+Sno=input("Enter Last Name : ")
+Sno=int(Sno)
+total=Fno+Sno
+print("The total is : " + str(total))
